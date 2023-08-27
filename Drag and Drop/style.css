@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0b0423;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left,
+.right {
+  width: 300px;
+  min-height: 400px;
+  margin: 20px;
+  border: 2px dashed #f9ff4f;
+  border-radius: 20px;
+}
+
+.list {
+  background-color: #e9c01e;
+  height: 60px;
+  margin: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  cursor: grab;
+}
+
+.list i {
+}
